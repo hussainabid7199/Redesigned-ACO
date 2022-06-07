@@ -171,12 +171,15 @@ body{
     margin: 1rem;
 }
 
-.tile-image button{
-    width: 20%;
-    height: 15%;
-    padding: 1.5rem;
-    border-radius: 5rem;
+.bi{
+    color: rgb(255, 255, 255);
+}
 
+.tile-btn i{
+    font-size: 4rem;
+    margin: 1rem;
+    display: flex;
+    justify-self: center;
 }
 
 .tile-content{
@@ -216,6 +219,107 @@ body{
 
 .portfolio-inner img{
     border-radius: .5rem;
+}
+
+
+
+/* About us */
+
+.aboutus-head{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.aboutus-head h2{
+    color: white;
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    margin-top: 5rem;
+}
+.element-con{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 20rem);
+    grid-auto-rows: 15rem;
+    width: 100%;
+}
+
+.img-g1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.img-g1 img{
+    width: 100%;
+    height: auto;
+    margin-left: 5%; 
+}
+
+.img-g2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    margin-top: 15rem;
+}
+.img-g2 img{
+    width: 100%;
+    height: auto;
+    margin-left: 0%; 
+}
+
+.img-g3{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.img-g3 img{
+    width: 100%;
+    height: auto;
+}
+
+.content{
+    width: 100%;
+}
+
+.about-inner{
+    width: 100%;
+}
+
+.about-inner h3{
+    font-size: 3rem;
+    color: white;
+    font-weight: 500;
+    width: 90%;
+}
+
+.para p{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 500;
+    margin-top: 3rem;
+}
+
+.button{
+    margin-top: 4rem;
+}
+
+.button h2{
+    width: 45%;
+    text-align: center;
+    padding: 1.5rem;
+    background-color: pink;
+    font-size: 3rem;
 }
 
 
