@@ -1,0 +1,166 @@
+
+/* Service */
+
+.service-sec{
+    margin: 5rem 0rem 5rem 0rem;
+}
+
+.container {
+    margin-top: 2rem;
+}
+
+.container .image img{
+    width: 100%;
+}
+
+@media(max-width:590px){
+    .container .row{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 1.5rem;
+    }
+}
+
+@media(min-width:590px){
+    .container .reverse{
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+    }
+    .container .col{
+        margin: 2rem;
+    }
+}
+
+/* Portfolio page  */
+
+/* Skill Section  */
+
+.skill{
+    background-repeat: no-repeat;
+    background-size: 40%;
+    position: sticky;
+    overflow: hidden;
+}
+.skillset{
+    width: 100%;
+    overflow: hidden;
+}
+
+.skillset .left{
+    position: relative;
+    left: 25rem;
+    margin: 5rem 0rem;
+}
+
+.skillset .right{
+    position: relative;
+    right: 25rem;
+    display: flex;
+    justify-content: end;
+}
+
+.skill-tile{
+    width: 45rem;
+    height: 35rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.02), rgba(0, 0, 0, 0.09));
+    border: .1rem solid rgba(255, 255, 255,0.5);
+    border-radius: .5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.skill-tile .tile-inner{
+    width: 85%;
+    height: fit-content;
+}
+
+.skill-tile .tile-icon{
+    display: flex;
+    justify-content: center;
+    position: sticky;
+}
+
+.skill-tile .tile-icon-inner{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 30rem;
+    background-color: #000654;
+    margin: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.skill-tile .tile-icon-inner .tile-inner-con h4{
+    font-size: 2rem;
+    color: white;
+    margin: 3.4rem;
+}
+
+.tile-skill-con{
+    font-size: 2rem;
+    font-style: italic;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+}
+
+.js-style{
+    height: 4rem;
+    width: 4.5rem;
+    background-color: white;
+}
+
+.js-style-inner{
+    margin-bottom: .0rem;
+}
+
+.js-style-inner h3{
+    color: #000654;
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 2.8rem 0rem 0rem 1rem;
+    text-align: center;
+}
+
+@media (max-width: 550px){
+    .skillset{
+        justify-content: end;
+    }
+    .skillset{
+        justify-content: end;
+    }
+    .skillset .left{
+        left: 0rem;
+    }
+    .skillset .right{
+        right: 0rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

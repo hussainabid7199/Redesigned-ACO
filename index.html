@@ -14,6 +14,7 @@
   <!-- Bootstrap Icon CDN  -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
   <!-- Bootstrap Icon CDN  -->
+  <link rel="stylesheet" href="public/assets/css/common.css">
   <link rel="stylesheet" href="public/assets/css/index.css">
   <title>Home | ACO</title>
 </head>
@@ -30,10 +31,11 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-link" aria-current="page" href="#">Home</a>
-          <a class="nav-link" href="#">Features</a>
-          <a class="nav-link" href="#">Pricing</a>
-          <a class="nav-link">Disabled</a>
+          <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          <a class="nav-link" href="service.html">Service</a>
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+          <a class="nav-link" href="aboutus.html">About Us</a>
+          <a class="nav-link" href="contactus.html">Contact Us</a>
         </div>
       </div>
     </div>
@@ -337,6 +339,7 @@
     </div>
   </section>
 
+  <!-- what client say about us -->
   <section class="whatClientSay">
     <div class="clientHeading">
       <h2>What client Say about Us</h2>
@@ -474,98 +477,113 @@
       </div>
     </div>
   </section>
+<!-- what client say about us -->
 
-  <section class="newsletter">
-    <div class="container-fluid bg-img"
-      style="background-image: linear-gradient(to right, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(public/assets/image/newsletter-img.png);">
-      <div class="newsletterHeading">
-        <h3>Subscribe to <br> our Newsletter</h3>
+<!-- newsLetter -->
+
+<section id="newsLetter">
+  <div class="jumbotron">
+      <h3>NewsLetter</h3>
+      <h2 class="display-4">Subscribe Mail-list Our Latest <span> Newsletter</span></h2>
+      <p class="text-news">Don't forget to receive the best upcoming partnership offers. Subscribe now and become one of our prime members. For only the prime members will be able to access our best and smart upcoming partnership offers.</p>
+      <div class="newsLetterbutton">
+          <input type="email" class="newsLetterinput" id="exampleInputEmail1" placeholder="Enter your Email">
+          <button type="submit" class="btn" onclick="underCon()" >Subscribe Now</button>
       </div>
-      <div class="newsletterForm">
-        <form action="">
-          <input type="text" placeholder="Enter Your E-mail">
-          <button type="button">
-            <h2 type="button">Subscribe</h2>
-          </button>
-        </form>
-      </div>
-    </div>
-  </section>
+  </div>
+</section>
+
+<!-- newsLetter -->
 
   <section class="footer">
-    <div class="footerContainer">
-      <div class="footer-wrap-con">
-        <div class="brand">
-          <div class="brand-footer-icon">
-            <img src="public/assets/image/f1098.png" alt="">
-          </div>
-          <div class="brandContent">
-            <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum maxime ex tenetur animi. Assumenda,
-              temporibus aliquam doloremque aperiam aspernatur maxime nam harum est, nesciunt impedit architecto,
-              dignissimos obcaecati quisquam ducimus!</h5>
-          </div>
-          <div class="addressOfoffice">
-            <div class="title">
-              <h2>Office</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="brand">
+                    <div class="brand-footer-icon">
+                        <img src="public/assets/image/f1098.png" alt="">
+                    </div>
+                    <div class="brandContent white">
+                        <h5 class="white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum maxime ex tenetur animi.
+                            Assumenda,
+                            temporibus aliquam doloremque aperiam aspernatur maxime nam harum est, nesciunt impedit
+                            architecto,
+                            dignissimos obcaecati quisquam ducimus!</h5>
+                    </div>
+                    <div class="addressOfoffice">
+                        <div class="title">
+                            <h5 class="white h5-style">Office</h5>
+                        </div>
+                        <div class="addressOffice">
+                            <ul>
+                                <li class="white">Bindusar Hamid</li>
+                                <li class="white">Vill + Po Bindusar Hamid</li>
+                                <li class="white">Siwan (Bihar)</li>
+                                <li class="white">841226</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="addressoffice">
-              <ul>
-                <li>Address Line</li>
-                <li>Address Line</li>
-                <li>Address Line</li>
-                <li>Pin-Code</li>
-                <li>Contact No</li>
-              </ul>
+            <div class="col">
+                <div class="row">
+                    <div class="col">
+                        <div class="brand-link">
+                            <div class="usefulLink">
+                                <h4 class="h4-style white">Usefull Link</h4>
+                            </div>
+                            <div class="links">
+                                <ul>
+                                    <li><a href="#" class="white">About Us</a></li>
+                                    <li><a href="#" class="white">Platform</a></li>
+                                    <li><a href="#" class="white">Career</a></li>
+                                    <li><a href="#" class="white">Verify Certificate</a></li>
+                                    <li><a href="#" class="white">Privacy Policy</a></li>
+                                    <li><a href="#" class="white">Term & Condition</a></li>
+                                    <li><a href="#" class="white">Refund & Return</a></li>
+                                    <li><a href="#" class="white">Cancellation Policy</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="contact-footer">
+                            <div class="contactUs">
+                                <h2 class="h2-style white">Contact Us</h2>
+                            </div>
+                            <div class="contactInnerDetail">
+                                <div class="contactContainer">
+                                    <div class="contact-con">
+                                        <div class="icon-con"><i class="bi bi-telephone white"></i></div>
+                                        <div class="contactDetail"><a href="tel:+919546283031" class="white">+919546283031</a>
+                                        </div>
+                                    </div>
+                                    <div class="contact-con">
+                                        <div class="icon-con"><i class="bi bi-envelope white"></i></div>
+                                        <div class="contactDetail"><a
+                                                href="mailto:adscamponline@gmail.com" class="white">adscam@gmail.com</a></div>
+                                    </div>
+                                    <div class="contact-con">
+                                        <div class="icon-con"><i class="bi bi-house white"></i></div>
+                                        <div class="contactDetail"><a href="#" class="white">Remoterm home</a></div>
+                                    </div>
+                                    <div class="socialMediaIcon contact-con">
+                                        <div class="icon-con"><img src="" alt=""><i class="bi bi-facebook white"></i>
+                                        </div>
+                                        <div class="icon-con"><img src="" alt=""><i class="bi bi-linkedin white"></i>
+                                        </div>
+                                        <div class="icon-con"><img src="" alt=""><i class="bi bi-twitter white"></i></div>
+                                        <div class="icon-con"><img src="" alt=""><i class="bi bi-google white"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-        <div class="brand-link">
-          <div class="usefulLink">
-            <h2>Usefull Link</h2>
-          </div>
-          <div class="links">
-            <ul>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Platform</a></li>
-              <li><a href="#">Career</a></li>
-              <li><a href="#">Verify Certificate</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-              <li><a href="#">Term & Condition</a></li>
-              <li><a href="#">Refund & Return</a></li>
-              <li><a href="#">Cancellation Policy</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="contact-footer">
-          <div class="contactUs">
-            <h2>Contact Us</h2>
-          </div>
-          <div class="contactInnerDetail">
-            <div class="contactContainer">
-              <div class="contact-con">
-                <div class="icon-con"><i class="bi bi-telephone"></i></div>
-                <div class="contactDetail"><a href="tel:+919546283031">+919546283031</a></div>
-              </div>
-              <div class="contact-con">
-                <div class="icon-con"><i class="bi bi-envelope"></i></div>
-                <div class="contactDetail"><a href="mailto:adscamponline@gmail.com">adscamponline@gmail.com</a></div>
-              </div>
-              <div class="contact-con">
-                <div class="icon-con"><i class="bi bi-house"></i></div>
-                <div class="contactDetail"><a href="#">Remote work form home</a></div>
-              </div>
-              <div class="socialMediaIcon contact-con">
-                <div class="icon-con"><img src="" alt=""><i class="bi bi-facebook"></i></div>
-                <div class="icon-con"><img src="" alt=""><i class="bi bi-linkedin"></i></div>
-                <div class="icon-con"><img src="" alt=""><i class="bi bi-twitter"></i></div>
-                <div class="icon-con"><img src="" alt=""><i class="bi bi-google"></i></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
-  </section>
+</section>
 
 
 
