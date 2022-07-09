@@ -130,7 +130,7 @@
 }
 @media(max-width:998px) {
     .tile-conatiner {
-        width: 80%;
+        width: 100%;
     }
 }
 
@@ -142,7 +142,7 @@
 
 @media(min-width:200px) and (max-width:768px){
     .tile-element {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 @media(min-width:768px) and (max-width:998px) {
