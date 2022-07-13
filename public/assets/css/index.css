@@ -153,10 +153,17 @@
 
 
 .tile-inner-element {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgb(255, 255, 255);
     margin: 2.5rem;
     border: .1rem;
     border-radius: 1.5rem;
+}
+.tile-inner-element:hover{
+  background: linear-gradient(to top, rgb(3, 9, 85), rgb(255, 255, 255));
+  background-size: 200% 600%;
+  background-position: bottom right;
+  box-sizing: border-box;
+  color: white;
 }
 
 @media(max-width:998px) {
@@ -171,8 +178,8 @@
     margin: 1rem;
 }
 
-.bi {
-    color: rgb(255, 255, 255);
+.bi{
+    color: rgb(0, 0, 0);
 }
 
 .tile-btn i {
@@ -184,6 +191,10 @@
 
 .tile-content {
     margin: 2rem;
+}
+.tile-content p{
+    font-size: 1.5rem;
+    font-weight: 500;
 }
 
 
