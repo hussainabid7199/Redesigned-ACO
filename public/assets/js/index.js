@@ -24,7 +24,7 @@ var tileBtnArrow = document.querySelectorAll(".tile-inner-element");
 
 for(i=0; i<tileBtnArrow.length; i++){
     tileBtnArrow[i].addEventListener("mouseout", function(){
-        this.style.transition = ".9s";
+        this.style.transition = "1.5s";
     });
     tileBtnArrow[i].addEventListener("mouseover", function(){
         this.style.transition = ".5s";
@@ -42,4 +42,6 @@ for(i=0; i<classAdd.length; i++){
         this.style.transition = ".8s";
     })
 }
-        
+
+
+
