@@ -3,6 +3,26 @@ p{
   padding: 0rem;
 }
 
+
+/* Digital marketing */
+.portfolio{
+  margin-top: 5rem;
+}
+.portfolio .row h2{
+  text-align: center;
+  margin: 5rem;
+}
+.image img{
+  width: 100%;
+  height: auto;
+}
+
+.web-margin{
+  margin-top: 2rem;
+}
+
+/* Digital marketing */
+
 /* Skill Section  */
 
 .skill{
@@ -193,7 +213,6 @@ body{
   margin: 0%;
   width: 100vh;
 }
-
 
 
 
