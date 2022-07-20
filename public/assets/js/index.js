@@ -1,3 +1,17 @@
+// Navigation Bar 
+var navBarToggler = document.getElementsByClassName("navbar-toggler");
+document.getElementById("navbar-toggler").addEventListener("mouseover", function(){
+    var navBarToggler = document.getElementById("navbar-toggler");
+    navBarToggler.style.backgroundColor = "yellow";
+})
+document.getElementById("navbar-toggler").addEventListener("mouseout", function(){
+    var navBarToggler = document.getElementById("navbar-toggler");
+    navBarToggler.style.backgroundColor = "";
+})
+// Navigation Bar 
+
+
+// tile section 
 let contactHome = document.querySelector(".contactHome").addEventListener("click", function(){
     window.open("contactus.html", "_self");
 });
@@ -42,6 +56,8 @@ for(i=0; i<classAdd.length; i++){
         this.style.transition = ".8s";
     })
 }
+// tile section 
+
 
 
 
