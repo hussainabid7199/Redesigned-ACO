@@ -84,10 +84,11 @@ ul {
     height: auto;
 }
 
-/* .carousel, .carousel-item{
-    width: 100%;
-    height: auto;
-} */
+.center{
+    display: flex;
+    justify-content: center;
+}
+
 
 .client-inner-tile {
     display: flex;
